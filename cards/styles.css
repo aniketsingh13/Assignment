@@ -24,7 +24,7 @@ h3{
 span{
     margin-top: 0;
     margin-left: 6px;
-    font-size: 13px;
+    font-size: 11px;
     color: silver;
 }
 p{
@@ -36,7 +36,7 @@ p{
 }
 .footer{
     display: flex;
-    height: 60px;
+    height: 40px;
     align-items: center;
     justify-content: space-around;
 }
