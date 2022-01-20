@@ -47,7 +47,32 @@ p{
 
 .footer{
     display: flex;
-    height: 40px;
-    align-items: center;
+   width: 250px;
+   height: 30px;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+}
+i{
+    
+    color: black;
+}
+i:hover{
+    
+    background-color: silver;
+   
+    
+}
+span{
+    color: blue;
+}
+span:hover{
+    background-color: silver;
+}
+.body:hover{
+    background-color: #D3DEDC;
+    
+}
+.header:hover{
+    background-color: #D3DEDC;
 }
