@@ -10,12 +10,14 @@ body{
     background-color: white;
     border-radius: 4px;
     box-shadow: 1px 2px 1px 1px rgba(0,0,0,.1);
+    cursor: pointer;
 }
 
 h3{
     margin-top: 10px;
     margin-bottom: 0;
     margin-left: 6px;
+    font-size: 15px;
 }
 
 span{
@@ -26,8 +28,24 @@ span{
 }
 p{
     color: silver;
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     margin-top: 10px;
     
+}
+.footer{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    background-color: white;
+    color: blue;
+    border: none;
+    cursor: pointer;
+}
+a{
+    
+    color: black;
 }
