@@ -52,7 +52,7 @@ p{
 button{
     background-color: white;
     color: blue;
-  
+  border: none;
     cursor: pointer;
 }
 a{
