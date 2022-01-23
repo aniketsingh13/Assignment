@@ -6,10 +6,10 @@ body{
  
 } 
 .main-container{
-    display: grid;
+    display: flex;
     
-    grid-template-columns: repeat(auto-fit, 18rem);
-    grid-gap: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 .cards{
     display: flex;
@@ -93,10 +93,30 @@ display: none;
  /*card with basic header */
 
  .header_one{
-     padding-bottom: .6rem;
+     padding-bottom: .4rem;
  }
 
  /* card with text over media */
+ .header_three{
+     position: relative;
+ }
     
-
+.position{
+    position: absolute;
+    bottom: 1rem;
+    color: white;
+}
+ .color_change{
+     color: white;
+ }
  
+ .cards_one{
+    display: flex;
+    flex-direction: column;
+    height:max-content;
+    width: 15.9rem;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 2px 1px 1px rgba(0,0,0,.1);
+    cursor: pointer;
+ }
