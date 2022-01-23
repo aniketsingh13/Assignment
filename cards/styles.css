@@ -19,6 +19,8 @@ body{
     border-radius: 4px;
     box-shadow: 1px 2px 1px 1px rgba(0,0,0,.1);
     cursor: pointer;
+    height: max-content;
+
 }
 .image_one{
     border-radius: 3px;
@@ -110,13 +112,4 @@ display: none;
      color: white;
  }
  
- .cards_one{
-    display: flex;
-    flex-direction: column;
-    height:max-content;
-    width: 15.9rem;
-    background-color: white;
-    border-radius: 4px;
-    box-shadow: 1px 2px 1px 1px rgba(0,0,0,.1);
-    cursor: pointer;
- }
+ 
