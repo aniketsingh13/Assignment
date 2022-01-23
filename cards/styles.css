@@ -92,4 +92,6 @@ display: none;
 
  /*card with basic header */
 
- 
+ .header_one{
+     padding-bottom: .6rem;
+ }
