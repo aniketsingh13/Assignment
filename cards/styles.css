@@ -9,7 +9,7 @@ body{
 .main-container{
     display: grid;
     
-    grid-template-columns: repeat(auto-fit, 21.875rem);
+    grid-template-columns: repeat(auto-fit, 18rem);
     grid-gap: 2rem;
 }
 .cards{
@@ -78,4 +78,15 @@ display: none;
     height: 40px;
     align-items: center;
     padding-left: 10px;
+}
+
+.dsply-none{  /*card with only fonts */
+display: none;
+}
+.footer-two{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    
 }
