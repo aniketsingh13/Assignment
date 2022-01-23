@@ -1,6 +1,5 @@
 body{
-    padding: 0;
-    margin: 0;
+  
     box-sizing: border-box;
     font-family: sans-serif;
     background-color: lightgray;
@@ -90,3 +89,7 @@ display: none;
     justify-content: space-around;
     
 }
+
+ /*card with basic header */
+
+ 
