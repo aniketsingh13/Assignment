@@ -15,6 +15,7 @@ body {
 .main_container {
     position: relative;
 }
+
 /* Text with Badge */
 .Neog_Badges {
     position: absolute;
@@ -32,7 +33,7 @@ h3 {
 }
 
 /* text with large badges */
-.Neog_BadgesTwo{
+.Neog_BadgesTwo {
     position: absolute;
     top: 10px;
     left: 80px;
@@ -43,8 +44,9 @@ h3 {
     font-size: 1.5rem;
     text-align: center;
 }
+
 /* button with Badges */
-.Neog_BadgesThree{
+.Neog_BadgesThree {
     position: absolute;
     bottom: 19px;
     right: 75px;
@@ -56,7 +58,7 @@ h3 {
     text-align: center;
 }
 
-button{
+button {
     background-color: indigo;
     border-radius: 10px;
     padding: 5px;
@@ -64,15 +66,39 @@ button{
 }
 
 /*button toggle visiblity */
-.Neog_BadgesFour{
+
+.Neog_BadgesFour {
     position: absolute;
     bottom: 24px;
     left: 69px;
-    
+
     border-radius: 50%;
     background-color: hotpink;
     width: 20px;
     height: 20px;
     font-size: 1rem;
     text-align: center;
+}
+.clicked:hover{
+    background-color: #E60965;
+}
+/*Icon With Badges */
+.Icon_Size {
+    font-size: 2rem;
+    color: black;
+}
+
+.Neog_BadgesFive {
+    position: absolute;
+    bottom: 18px;
+    left: 27px;
+
+    border-radius: 50%;
+    background-color: red;
+    width: 26px;
+    height: 26px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+
 }
