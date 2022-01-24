@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+.Badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.main_container {
+    position: relative;
+}
+/* Text with Badge */
+.Neog_Badges {
+    position: absolute;
+    top: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+h3 {
+    color: red;
+}
+
+/* text with large badges */
+.Neog_BadgesTwo{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    border-radius: 50%;
+    background-color: blue;
+    width: 25px;
+    height: 25px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+/* button with Badges */
+.Neog_BadgesThree{
+    position: absolute;
+    bottom: 19px;
+    right: 75px;
+    border-radius: 50%;
+    background-color: hotpink;
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+button{
+    background-color: indigo;
+    border-radius: 10px;
+    padding: 5px;
+    color: lavender;
+}
