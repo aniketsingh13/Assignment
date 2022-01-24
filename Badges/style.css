@@ -62,3 +62,16 @@ button{
     padding: 5px;
     color: lavender;
 }
+
+/*button toggle visiblity */
+.Neog_BadgesFour{
+    position: absolute;
+    bottom: 19px;
+    
+    border-radius: 50%;
+    background-color: hotpink;
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
