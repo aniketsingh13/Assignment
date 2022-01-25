@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    text-align: center;
+}
+
+.snack_btn{
+    border: 1px solid #5800FF;
+    background-color: #5800FF;
+    cursor: pointer;
+    border-radius: 5px;
+     padding: 5px;
+     min-width: 6rem;
+     color: white;
+}
+
+.Base_snackbar{
+  display: none;
+    min-width: 15.625rem;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 1px 1px silver;
+    padding: 1rem;
+    height: max-content;
+    font-size: .8rem;
+    position: fixed;
+    left: 35%;
+    bottom: 30px;
+
+}
+strong{
+    color: violet;
+    padding: 1rem;
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+
+
