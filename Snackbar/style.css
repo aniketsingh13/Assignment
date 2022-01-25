@@ -32,7 +32,8 @@ body{
 }
 strong{
     color: violet;
-    padding: 1rem;
+    padding-left: 10px;
+     padding-right: 10px;
     cursor: pointer;
 }
 i{
