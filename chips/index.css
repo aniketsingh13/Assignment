@@ -1,0 +1,44 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.main_container{
+    text-align: center;
+}
+.basic_cheap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1rem;   
+}
+.chips{
+display: inline-block;
+padding: 0 1.5625rem;
+height: 3rem;
+font-size: 1rem;
+line-height: 3rem;
+border-radius: 1.5625rem;
+background-color: #f1f1f1;
+}
+
+.chip_img{
+    float: left;
+    height: 3.125rem;
+    width: 3rem;
+    margin: 0 10px 0 -25px;
+    border-radius: 50%;
+}
+.btn{
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+   
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background-color: whitesmoke;
+}
