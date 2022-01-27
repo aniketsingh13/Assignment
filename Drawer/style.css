@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.container{
+  display: flex;
+  justify-content: center;
+}
+.main_component{
+  
+  display: flex;
+  max-width: rem;
+  border: 1px solid gray;
+
+}
+.drawer{
+  border: 1px solid gray;
+  
+}
+
+.side_content{
+  
+
+ 
+}
+.scroll{
+  margin:4px, 4px;
+  padding:4px;
+  
+  width: 500px;
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
+
+.scroll_one{
+  margin:4px, 4px;
+  padding:4px;
+  
+  width: 200px;
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
