@@ -1,0 +1,51 @@
+body{
+    box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: silver;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.alert_dialog{
+    min-width: 220px;
+    max-height: 360px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 1px 2px 1px 1px rgba(0,0,0,.1);
+   
+}
+.header{
+    padding-left: 10px;
+    font-weight: lighter;
+}
+.body{
+height: 53px;
+padding-left: 10px;
+color: gray;
+font-size: 15px;
+}
+.footer{
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: .8rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+button{
+    border: none;
+    color: blue;
+    font-size: 16px;
+    background-color: white;
+    padding: .5rem;
+}
+button:hover{
+background-color: #D6E5FA;
+
+}
+/*  Simple dialog */
