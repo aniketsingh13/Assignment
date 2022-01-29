@@ -1,27 +1,28 @@
-body{
+body {
     box-sizing: border-box;
     font-family: sans-serif;
     background-color: gray;
 }
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    
-}
-.fixed{
-   width: 400px;
-   height: 180px;
-   
-   overflow: hidden;
-   display: flex;
-   justify-content: center;
-   
+
 }
 
-.tab{
+.fixed {
+    width: 400px;
+    height: 180px;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tab {
     align-self: center;
     border: none;
     outline: none;
@@ -29,16 +30,22 @@ body{
     cursor: pointer;
     transition: .3s;
     font-size: 17px;
-     
+
 }
 
-.tab:hover{
+.tab:hover {
     color: blue;
     background-color: #ddd;
     border: 1px solid blue;
-   border-style: hidden hidden solid hidden;
+    border-style: hidden hidden solid hidden;
 }
-i{
+
+i {
     padding-right: 3.3px;
 }
-/* leadingn */
+
+/* leading icon */
+
+ .tab{
+     flex: 1 0 auto;
+ }
