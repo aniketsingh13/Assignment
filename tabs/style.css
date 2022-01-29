@@ -44,31 +44,6 @@ i {
     padding-right: 3.3px;
 }
 
-/* leading icon */
-
-.box_one {
-    align-self: center;
-    
-    
-}
-
-.tab_one {
-    border: none;
-    outline: none;
-    padding: 14px 16px;
-    cursor: pointer;
-    transition: .3s;
-    font-size: 17px;
-
-}
 a{
- padding: 3rem;
-    
-}
- 
-.tab_one:hover{
-    color: blue;
-    background-color: #ddd;
-    border: 1px solid blue;
-    border-style: hidden hidden solid hidden;
+    padding: 3rem;
 }
