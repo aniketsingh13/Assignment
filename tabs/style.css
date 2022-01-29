@@ -1,0 +1,35 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fixed_none{
+   width: 400px;
+   height: 180px;
+   border: 1px solid #ccc;
+   overflow: hidden;
+   display: flex;
+   justify-content: space-around;
+}
+
+.tab{
+    align-self: center;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: .3s;
+    font-size: 17px;
+
+}
+
+.tab:hover{
+    background-color: #ddd;
+    border: 1px solid blue;
+   border-style: hidden hidden solid hidden;
+}
