@@ -11,7 +11,7 @@ body{
     gap: 2rem;
     
 }
-.fixed_none{
+.fixed{
    width: 400px;
    height: 180px;
    
@@ -38,3 +38,7 @@ body{
     border: 1px solid blue;
    border-style: hidden hidden solid hidden;
 }
+i{
+    padding-right: 3.3px;
+}
+/* leadingn */
